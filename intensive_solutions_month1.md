@@ -149,19 +149,7 @@ def calculate_si(p, r, t):
     return (p * r * t) / 100
 ```
 
-#### Day 2: Advanced Functions
-1. **Function to check Prime (is_prime)**
-   - **Input**: `11`
-   - **Output**: `True`
-```python
-def is_prime(n):
-    if n < 2: return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0: return False
-    return True
-```
-
-### Week 4: Strings & List Collections
+### Week 3: Strings & Characters
 
 #### Day 1: Char Reading
 1. **Iterate and print every character**
@@ -205,13 +193,20 @@ print(title.strip())
    - **Output**: `"gmail.com"`
 ```python
 email = "saisha@gmail.com"
-domain = email.split("@")[1] # or email[7:]
+domain = email.split("@")[1] 
 ```
 
 2. **Reverse using slicing**
    - **Input**: `"Product"`
    - **Output**: `"tcudorP"`
+#### Day 2: Advanced Functions
+1. **Function to check Prime (is_prime)**
+   - **Input**: `11`
+   - **Output**: `True`
 ```python
-s = "Product"
-rev = s[::-1]
+def is_prime(n):
+    if n < 2: return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0: return False
+    return True
 ```

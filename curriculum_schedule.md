@@ -50,29 +50,7 @@ This schedule is optimized for performance, with **2-4 coding problems/tasks eve
     - [ ] 2. **Homework**: Floyd's Triangle pattern
     - [ ] 3. **Homework**: Print all Prime numbers between 1 and 100
 
-### Week 3: Functions & Modular Design
-*   **Day 1: Function Basics**
-    - [ ] 1. Simple Interest function
-    - [ ] 2. Temperature Converter (C to F and vice-versa)
-    - [ ] 3. Check Even/Odd using a boolean function
-*   **Day 2: Advanced Functions**
-    - [ ] 1. Function to check Prime (is_prime)
-    - [ ] 2. Function to calculate Factorial
-    - [ ] 3. Function to find GCD of two numbers
-*   **Day 3: Decomposition**
-    - [ ] 1. Break down a Calculator into 4 functions (+, -, *, /)
-    - [ ] 2. Create a Grade Calculator function based on marks
-    - [ ] 3. Function to check if a number is Palindrome
-*   **Day 4: Scope & Logic**
-    - [ ] 1. Build a menu-driven calculator using functions
-    - [ ] 2. Count vowels in a string using a function
-    - [ ] 3. Find the maximum of a list using functions
-*   **Day 5: Review & Project**
-    - [ ] 1. **Project**: Grade Management System (Functions for Totals, Average, Grade)
-    - [ ] 2. **Homework**: Build a mini-marksheet generator
-    - [ ] 3. **Homework**: Function to calculate power (a^b) without ** operator
-
-### Week 4: Strings & List Collections
+### Week 3: Strings & Characters
 *   **Day 1: String Basics & Char Reading**
     - [ ] 1. Iterate through a string and print every character on a new line
     - [ ] 2. Count total number of Vowels and Consonants in a sentence
@@ -93,6 +71,28 @@ This schedule is optimized for performance, with **2-4 coding problems/tasks eve
     - [ ] 1. **Project**: Student Search & Formatter (Read input, clean it, search in list)
     - [ ] 2. **Homework**: Check if a string is a Palindrome (using string methods)
     - [ ] 3. **Homework**: Replace all occurrences of "Python" with "Product" in a sentence
+
+### Week 4: Functions & Modular Design
+*   **Day 1: Function Basics**
+    - [ ] 1. Simple Interest function
+    - [ ] 2. Temperature Converter (C to F and vice-versa)
+    - [ ] 3. Check Even/Odd using a boolean function
+*   **Day 2: Advanced Functions**
+    - [ ] 1. Function to check Prime (is_prime)
+    - [ ] 2. Function to calculate Factorial
+    - [ ] 3. Function to find GCD of two numbers
+*   **Day 3: Decomposition**
+    - [ ] 1. Break down a Calculator into 4 functions (+, -, *, /)
+    - [ ] 2. Create a Grade Calculator function based on marks
+    - [ ] 3. Function to check if a number is Palindrome
+*   **Day 4: Scope & Logic**
+    - [ ] 1. Build a menu-driven calculator using functions
+    - [ ] 2. Create a dynamic receipt generator using functions and f-strings
+    - [ ] 3. Function to find the longest word in a list
+*   **Day 5: Review & Project**
+    - [ ] 1. **Project**: Advanced Scoreboard Engine (using functions for all logic)
+    - [ ] 2. **Homework**: Write a function to check if a string is a Palindrome
+    - [ ] 3. **Homework**: Function to calculate power (a^b) without ** operator
 
 ---
 
