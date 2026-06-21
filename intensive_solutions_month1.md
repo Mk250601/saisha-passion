@@ -161,20 +161,57 @@ def is_prime(n):
     return True
 ```
 
-### Week 4: Lists & Iteration
-#### Day 1: List Basics
-1. **Create a list and sum items**
-   - **Input**: `[1, 2, 3]`
-   - **Output**: `6`
+### Week 4: Strings & List Collections
+
+#### Day 1: Char Reading
+1. **Iterate and print every character**
+   - **Input**: `"Python"`
+   - **Output**: `P \n y \n t \n h \n o \n n`
 ```python
-items = [1, 2, 3]
-total = sum(items)
+for char in "Python":
+    print(char)
 ```
 
-2. **Find Max and Min in a list**
-   - **Input**: `[10, 5, 20]`
-   - **Output**: `Max: 20, Min: 5`
+2. **Count Vowels and Consonants**
+   - **Input**: `"hello"`
+   - **Output**: `Vowels: 2, Consonants: 3`
 ```python
-items = [10, 5, 20]
-mx, mn = max(items), min(items)
+s = "hello"
+vowels = "aeiou"
+v_count = len([c for c in s if c in vowels])
+c_count = len(s) - v_count
+```
+
+#### Day 2: String Methods
+1. **Title Case Transformation**
+   - **Input**: `"saisha k"`
+   - **Output**: `"Saisha K"`
+```python
+name = "saisha k"
+print(name.title()) 
+```
+
+2. **Whitespace Cleanup**
+   - **Input**: `"  Gaming Laptop  "`
+   - **Output**: `"Gaming Laptop"`
+```python
+title = "  Gaming Laptop  "
+print(title.strip())
+```
+
+#### Day 3: Slicing Mastery
+1. **Domain Extraction**
+   - **Input**: `"saisha@gmail.com"`
+   - **Output**: `"gmail.com"`
+```python
+email = "saisha@gmail.com"
+domain = email.split("@")[1] # or email[7:]
+```
+
+2. **Reverse using slicing**
+   - **Input**: `"Product"`
+   - **Output**: `"tcudorP"`
+```python
+s = "Product"
+rev = s[::-1]
 ```

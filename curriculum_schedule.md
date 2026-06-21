@@ -72,27 +72,27 @@ This schedule is optimized for performance, with **2-4 coding problems/tasks eve
     - [ ] 2. **Homework**: Build a mini-marksheet generator
     - [ ] 3. **Homework**: Function to calculate power (a^b) without ** operator
 
-### Week 4: Lists & Iteration
-*   **Day 1: List Basics**
-    - [ ] 1. Create a list, add items, and find the sum
-    - [ ] 2. Find the Max and Min in a list
-    - [ ] 3. Count occurrences of an item in a list
-*   **Day 2: Search Patterns**
-    - [ ] 1. Linear Search implementation
-    - [ ] 2. Search for a name in a student list
-    - [ ] 3. Find indices of all occurrences of an item
-*   **Day 3: List Transformation**
-    - [ ] 1. Reverse a list manually (without .reverse)
-    - [ ] 2. Create a new list of even numbers from a given list
-    - [ ] 3. Find the Average of all items in a list
-*   **Day 4: List Optimization**
-    - [ ] 1. Find the Second Largest number in a list
-    - [ ] 2. Remove duplicates from a list
-    - [ ] 3. Merge two sorted lists into one
+### Week 4: Strings & List Collections
+*   **Day 1: String Basics & Char Reading**
+    - [ ] 1. Iterate through a string and print every character on a new line
+    - [ ] 2. Count total number of Vowels and Consonants in a sentence
+    - [ ] 3. Count total spaces and digits in a user-provided string
+*   **Day 2: String Methods & Formatting**
+    - [ ] 1. Transform a full name to Title Case (e.g., "saisha k" -> "Saisha K")
+    - [ ] 2. Remove all leading/trailing whitespace from a product title
+    - [ ] 3. Use f-strings to build a dynamic receipt message: "Product: X, Price: Y"
+*   **Day 3: Slicing & Partials**
+    - [ ] 1. Extract the Domain name from an email (e.g., "saisha@gmail.com" -> "@gmail.com")
+    - [ ] 2. Print a string in reverse using slicing ([::-1])
+    - [ ] 3. Check if a string starts with "www." and ends with ".com"
+*   **Day 4: Strings Meet Lists**
+    - [ ] 1. Split a sentence into a list of words using .split()
+    - [ ] 2. Rejoin a list of words into a sentence using a hyphen (-)
+    - [ ] 3. Find the longest word in a given list of strings
 *   **Day 5: Synthesis**
-    - [ ] 1. **Project**: Cricket Scoreboard (Store names/runs, search, show top scorer)
-    - [ ] 2. **Homework**: Count how many numbers are greater than average in a list
-    - [ ] 3. **Homework**: Create a frequency list for 1-10 scores
+    - [ ] 1. **Project**: Student Search & Formatter (Read input, clean it, search in list)
+    - [ ] 2. **Homework**: Check if a string is a Palindrome (using string methods)
+    - [ ] 3. **Homework**: Replace all occurrences of "Python" with "Product" in a sentence
 
 ---
 
